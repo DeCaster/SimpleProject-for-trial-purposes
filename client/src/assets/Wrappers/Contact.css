@@ -1,0 +1,116 @@
+.contact-page{
+   background-color: rgb(14, 6, 127);
+   height: 250px;
+}
+.contact-page .contact-info{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.contact-info h4{
+    margin: 0px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.contact-info h5{
+    font-size: 13px;
+}
+.contact-info p{
+    color: white;
+    font-size: 14px;
+    padding-top: 8px;
+    font-weight: 500;
+}
+.contact-info p .link{
+    color: rgba(255, 251, 0, 0.94);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.contact-info p .link:hover{
+    color: rgb(255, 0, 0);
+
+}
+.contact-form {
+    width: 100%;
+    max-width: 500px; 
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(8, 0, 227, 0.5);
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  
+  .form-group textarea {
+    height:100px;
+  }
+  
+  button {
+    background-color: rgb(20, 9, 176); /* Bootstrap primary color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0d54a1; /* Darken on hover */
+  }
+  
+  .privacy-policy {
+    margin-top: 20px;
+  }
+  
+  .privacy-policy a {
+    color: rgb(25, 14, 174);
+    text-decoration: none;
+  }
+  
+  .privacy-policy a:hover {
+    text-decoration: underline;
+  }
+
+  .form-group input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .form-group input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+

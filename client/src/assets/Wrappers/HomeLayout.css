@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding-top: 20px; /* Ekranın yukarısında boşluk oluşturur */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.icerik-image, .all-image {
+  width: 350px;
+  height: auto;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+
+.icerik-p, .home-p {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  color: #333;
+  background-color: #dddddd;
+  padding: 30px;
+  border-radius: 8px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  text-align: justify;
+}
+
+.icerik-p .home-h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  letter-spacing: normal;
+  text-shadow: 6px 4px 4px rgba(233, 233, 233, 0.772);
+
+}
+
+.app {
+  padding: 0px 0px;
+  background-color: #fff;
+  
+}
+
+.icerik {
+  display: flex;
+  align-items: center;
+}
+
+.icerik-image {
+  width: auto;
+  background-color: #fff;
+  padding: 50px 0px;
+  margin-top: 35px;
+  margin-bottom: auto;
+  margin-bottom: 200px;
+}
+
+.icerik-p {
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 20px;
+  position: sticky;
+}
+
+.btn-home {
+  display: block; 
+  width: auto; 
+  margin: 30px auto;
+  padding: 13px 64px;
+  background-color: #424548;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 1s;
+  position: sticky; 
+}
+
+.btn-home:hover {
+  background-color: #c6cbcb;
+}
+
+.yazmaKutusu {
+  display: block;
+  width: 900px;
+  height: 100px;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+@media screen and (max-width: 768px) {
+
+}

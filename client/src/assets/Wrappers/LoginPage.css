@@ -1,0 +1,9 @@
+.Login-p{
+    display: flex;
+    color: black;
+    justify-content: center;
+    
+}
+span{
+    margin-left: 6px;
+}

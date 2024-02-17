@@ -1,0 +1,86 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: #f8f8f8;
+  }
+  
+  .about-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    filter: blur(1px);
+  }
+  h2{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin: 20px 0;
+  }
+  h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 5px 0;
+  }
+  .about-p-1{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Modern ve temiz bir yazı tipi */
+    font-size: 19px; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 10px;
+    max-width: 690px;
+    color: rgb(120, 117, 117);
+  }
+ .page-info {
+    background-color: #e0e5e6;
+    text-align: left;
+    border-radius: 20px;
+    padding: 80px 100px; 
+    padding-right: 270px;
+    margin: 90px auto;
+    margin-right: 300px auto;
+    margin-left: 100px;
+    max-width: 900px; 
+    box-sizing: border-box; 
+}
+
+@media (max-width: 768px) {
+  .page-info {
+    padding: 40px;
+    margin: 20px auto; 
+    max-width: calc(100% - 2*20px); 
+  }
+}
+
+  .page-info .about-p-2{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-size: 19px; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 10px;
+    max-width: 490px;
+    color: rgb(120, 117, 117);
+  }
+  .page-info .info-h2{
+    margin-left: 10px;
+  }
+  .page-info .info-h3{
+    margin-left: 8px;
+    font-size: 30px;
+  }
+  .about-image-div{
+    align-content: flex-end;
+    margin-left: 600px;
+    margin-top: -400px;
+    position: sticky;
+  }
+
+  .about-image-div .about-image{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  

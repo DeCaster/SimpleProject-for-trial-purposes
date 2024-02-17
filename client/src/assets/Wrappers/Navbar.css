@@ -1,0 +1,42 @@
+.navbar{
+    background-color: #ffffff;
+    overflow: hidden;
+    margin-top: -20px;
+
+  }
+  
+  .navbar a {
+    float: right;
+    display: block;
+    color: rgb(1, 1, 1);
+    text-align: center; 
+    justify-content: space-between;
+    padding: 25px 20px;
+    text-decoration: none; 
+  
+  }
+  .navbar .login{
+    float: right;
+    display: block;
+    color: rgb(1, 1, 1);
+    text-align: center;
+    justify-content: space-between;
+    padding: 25px 10px;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 4px solid ;
+
+  }
+  .navbar .login:hover{
+    background-color: #dfdfdf; 
+    color: black;
+    border-bottom: 0px solid ;
+    transition: 0.7s;
+  }
+  
+  .navbar a:hover {
+    background-color: #cfcfcf;
+    color: black;
+    transition: 0.9s;
+    
+  }
